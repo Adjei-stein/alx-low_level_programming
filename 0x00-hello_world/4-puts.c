@@ -1,5 +1,7 @@
 #include <stdio.h>
-/* Main is a function */
+/**
+ * main is a function 
+ */
 int main(void) {
 	 puts("\"Programming is like building a multilingual puzzle");
 	 return 0;
