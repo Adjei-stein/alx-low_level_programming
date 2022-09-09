@@ -10,11 +10,7 @@
 int main(void)
 {
 	int n;
-	char k;
-	char v;
 
-	v = ',';
-	k = ' ';
 	for (n = 0; n <= 9; n++)
 	{
 	putchar((n % 10) + '0');
@@ -22,8 +18,8 @@ int main(void)
 	{
 	continue;
 	}
-	putchar(v);
-	putchar(k);
+	putchar(',');
+	putchar(' ');
 	}
 	putchar('\n');
 	return (0);
