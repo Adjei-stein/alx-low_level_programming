@@ -3,9 +3,9 @@
 #include <stdio.h>
 /**
  *  * main - The basic function
- *   * 
+ *   *
  *    * Return: 0
- *     * 
+ *     *
  *      */
 int main(void)
 {
@@ -19,11 +19,13 @@ int main(void)
 	putchar((n % 10) + '0');
 	putchar((k % 10) + '0');
 	if (n == 8 && k == 9)
+	{
 	continue;
 	}
 	putchar(',');
 	putchar(' ');
 	}
-	putchar('\n');   
+	}
+	putchar('\n');
 	return (0);
 }
