@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *  * main - The basic function
- *   *
- *    * Return: 0
- *     *
- *      */
+ * main - The basic function 
+ *
+ * Return: 0
+ *
+ */
 int main(void)
 {
 	int n;
@@ -19,7 +19,8 @@ int main(void)
 
 	for (k = 0; k <= 9; k++)
 	{
-	if (k < j) {
+	if (k < j)
+	{
 		continue;
 	}
 	putchar((n % 10) + '0');
