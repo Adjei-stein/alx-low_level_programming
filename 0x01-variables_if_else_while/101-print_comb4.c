@@ -22,9 +22,9 @@ int main(void)
 	p = 1;
 	for (k = 0; k < 9; k++)
 	{
-	if (k < j) 
+	if (k < j)
 	{
-	continue;   
+	continue;
 	}
         if (n == 8 && k == 9)
         {
@@ -36,13 +36,13 @@ int main(void)
 	{
 	continue;
 	}
-	if (r <= p) 
+	if (r <= p)
 	{
-	continue;   
+	continue;
 	}
-	putchar((n % 10) + '0'); 
+	putchar((n % 10) + '0');
 	putchar((k % 10) + '0');
-	putchar ((r % 10)+ '0');
+	putchar ((r % 10) + '0');
 	if (n == 7 && k == 8 && r == 9)
 	{
 	continue;
@@ -54,6 +54,6 @@ int main(void)
 	}
 	j++;
 	}
-	putchar('\n');				        
+	putchar('\n');
 	return (0);
 	}
