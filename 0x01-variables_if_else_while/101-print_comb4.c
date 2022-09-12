@@ -22,21 +22,13 @@ int main(void)
 	p = 1;
 	for (k = 0; k < 9; k++)
 	{
-	if (k < j)
-	{
-	continue;
-	}
-        if (n == 8 && k == 9)
+        if (k < j || n == 8 && k == 9)
         {
         continue;
         }
         for (r = 0; r <= 9; r++)
 	{
-	if (n >= k || k >= r)
-	{
-	continue;
-	}
-	if (r <= p)
+	if (n >= k || k >= r || r <= p)
 	{
 	continue;
 	}
