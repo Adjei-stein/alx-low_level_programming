@@ -16,17 +16,15 @@ int main(void)
 	int p;
 	int q;
 
-	j = 1;
 	for (n = 0; n <= 9; n++)
 	{
-	p = 1;
 	for (k = 0; k <= 9; k++)
 	{
 	for (r = 0; r <= 9; r++)
 	{
 	for (q = 0; q <= 9; q++)
 	{
-	if (r >= q) {
+	if (k == q && n == r || n == 9 && q <= k || r < n || q < k) {
 	continue;
 	}
 	putchar((n % 10) + '0');
@@ -38,9 +36,7 @@ int main(void)
 	putchar(' ');
 	}
 	}
-	p++;
 	}
-	j++;
 	}
 	putchar('\n');
 	return (0);
