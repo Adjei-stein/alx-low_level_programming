@@ -30,7 +30,7 @@ int main(void)
         {
         continue;
         }
-        for (r = 0; r <= 9; r
+        for (r = 0; r <= 9; r++)
 	{
 	if (r <= p) 
 	{
@@ -39,14 +39,15 @@ int main(void)
 	putchar((n % 10) + '0'); 
 	putchar((k % 10) + '0');
 	putchar ((r % 10)+ '0');
-	if (k == 8 && r == 9)
+	if (n == 7 && k == 8 && r == 9)
 	{
 	continue;
 	}
 	putchar(',');
 	putchar(' ');
-	}		                
-	p++;															}
+	}
+	p++;
+	}
 	j++;
 	}
 	putchar('\n');				        
