@@ -32,6 +32,10 @@ int main(void)
         }
         for (r = 0; r <= 9; r++)
 	{
+	if (n >= k || k >= r)
+	{
+	continue;
+	}
 	if (r <= p) 
 	{
 	continue;   
