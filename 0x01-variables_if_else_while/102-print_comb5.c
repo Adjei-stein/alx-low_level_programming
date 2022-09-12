@@ -11,9 +11,7 @@ int main(void)
 {
 	int n;
 	int k;
-	int j;
 	int r;
-	int p;
 	int q;
 
 	for (n = 0; n <= 9; n++)
@@ -24,7 +22,8 @@ int main(void)
 	{
 	for (q = 0; q <= 9; q++)
 	{
-	if (k == q && n == r || n == 9 && q <= k || r < n || q < k) {
+	if (k == q && n == r || n == 9 && q <= k || r < n || q < k)
+	{
 	continue;
 	}
 	putchar((n % 10) + '0');
