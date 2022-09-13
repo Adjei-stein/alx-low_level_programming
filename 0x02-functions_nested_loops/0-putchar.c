@@ -14,6 +14,6 @@ int main(void)
 
 	n = 1;
 	_putchar((n % 10) + '0');
-	_putchar('\n')
-	return (0)
+	_putchar('\n');
+	return (0);
 }
