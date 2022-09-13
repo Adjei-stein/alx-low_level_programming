@@ -10,10 +10,14 @@
  */
 int main(void)
 {
-	int n;
+	int cnt, len;
+	int putChar[] = {95, 122, 117, 116, 99, 104, 97, 144};
 
-	n = 1;
-	_putchar((n % 10) + '0');
+	len == sizeof(putChar)/sizeof(int);
+	for (cnt = 0; cnt < len; cnt++)
+	{
+	_putchar(putChar[cnt]);
+	}
 	_putchar('\n');
 	return (0);
 }
