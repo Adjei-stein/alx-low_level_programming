@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - That's my function, Baby
+ * print_alphabet - That's my function, Baby
  *
  * Return: 0
  *
