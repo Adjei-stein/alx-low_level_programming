@@ -4,16 +4,16 @@
 #include "main.h"
 /**
  * main - The basic function
- * 
+ *
  * Return: 0
- * 
+ *
  */
 int main(void)
 {
 	int cnt, len;
 	int putChar[] = {95, 112, 117, 116, 99, 104, 97, 114};
 
-	len = sizeof(putChar)/sizeof(int);
+	len = sizeof(putChar) / sizeof(int);
 	for (cnt = 0; cnt < len; cnt++)
 	{
 	_putchar(putChar[cnt]);
