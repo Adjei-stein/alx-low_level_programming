@@ -10,7 +10,10 @@
  */
 int main(void)
 {
-	_putchar()
-	putchar(\n)
+	int n;
+
+	n = 1;
+	_putchar((n % 10) + '0')
+	putchar('\n')
 	return (0)
 }
