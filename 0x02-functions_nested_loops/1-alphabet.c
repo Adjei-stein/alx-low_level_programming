@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * main - That's my function, Baby
  *
  * Return: 0
