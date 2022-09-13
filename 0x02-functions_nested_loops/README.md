@@ -1,1 +1,1 @@
-README.md for nested loops
+Training exercise on nested loops
