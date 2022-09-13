@@ -22,15 +22,15 @@ int main(void)
 	{
 	for (q = 0; q <= 9; q++)
 	{
-	if (k == q '&&' n == r '||' n == 9 '&&' q <= k '||' r < n '||' q < k)
+	if (k == q && n == r || n == 9 && q <= k || r < n || q < k)
 	{
 	continue;
 	}
 	putchar((n % 10) + '0');
 	putchar((r % 10) + '0');
 	putchar(' ');
-	putchar ((k % 10)+ '0');
-	putchar ((q % 10)+ '0');
+	putchar((k % 10)+ '0');
+	putchar((q % 10)+ '0');
 	putchar(',');
 	putchar(' ');
 	}
