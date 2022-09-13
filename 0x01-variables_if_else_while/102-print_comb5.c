@@ -27,12 +27,16 @@ int main(void)
 	continue;
 	}
 	putchar((n % 10) + '0');
-	putchar((r % 10) + '0');
+	putchar((k % 10) + '0');
 	putchar(' ');
-	putchar((k % 10)+ '0');
+	putchar((r % 10)+ '0');
 	putchar((q % 10)+ '0');
 	putchar(',');
 	putchar(' ');
+	if (n == 9 && k == 8 && r == 9 && q == 9)
+	{
+	continue;
+	}
 	}
 	}
 	}
