@@ -22,7 +22,7 @@ int main(void)
 	{
 	for (q = 0; q <= 9; q++)
 	{
-	if (k == q && n == r || n == 9 && q <= k || r < n || q < k)
+	if ((k == q && n == r) || (n == 9 && q <= k) || (r < n) || (q < k))
 	{
 	continue;
 	}
