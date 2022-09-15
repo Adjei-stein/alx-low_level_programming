@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints buzz for 3 and 5
+ * main - The function
  *
  * Return : Always 0
  */
@@ -15,7 +15,7 @@ int main(void)
 	{
 	if ((n % 3 == 0) && (n % 5 == 0))
 	{
-	printf(" Fizz Buzz");
+	printf(" FizzBuzz");
 	}
 	else if (n % 3 == 0)
 	{
@@ -31,5 +31,6 @@ int main(void)
 	}
 	}
 	printf("\n");
+
 	return (0);
 }
