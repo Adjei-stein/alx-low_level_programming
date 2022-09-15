@@ -9,12 +9,15 @@
 
 int _isupper(int c)
 {
+	int r = 1;
+	int s = 0;
+
 	if (c >= 65 && c <= 90)
 	{
-		return (1);
+		return (r);
 	}
 	else
 	{
-		return (0);
+		return (s);
 	}
 }
