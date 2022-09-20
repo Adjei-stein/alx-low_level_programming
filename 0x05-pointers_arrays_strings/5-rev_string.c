@@ -19,7 +19,7 @@ void rev_string(char *str)
 	}
 	c = i;
 	/*printf("%d\n", c);*/
-	for (b = -1; b >= (-c) && b <= 0; b--)
+	for (b = -1; b >= (-c) && b < 0; b--)
 	{
 	printf("%c", ar[b]);
 	}
