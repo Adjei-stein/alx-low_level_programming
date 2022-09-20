@@ -23,5 +23,4 @@ void print_rev(char *str)
 		printf("%c", ar[b]);
 	}
 	printf("\n");
-	return (0);
 }
