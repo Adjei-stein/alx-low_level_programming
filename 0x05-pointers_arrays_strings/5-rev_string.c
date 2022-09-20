@@ -13,7 +13,6 @@ void rev_string(char *str)
 	int e;
 
 	i = 0;
-	e = sizeof(str)/sizeof(str[0]);
 	while (*ar != '\0')
 	{
 	i++;
@@ -21,7 +20,7 @@ void rev_string(char *str)
 	}
 	c = i;
 	/*printf("%d\n", c);*/
-	for (b = -1; b >= (-c) && b <= e; b--)
+	for (b = -1; b >= (-c) && b <= 0; b--)
 	{
 	printf("%c", ar[b]);
 	}
