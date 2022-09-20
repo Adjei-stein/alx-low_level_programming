@@ -6,12 +6,12 @@
  */
 void rev_string(char *str)
 {
+	char *ar = str;
 	int i;
 	int c;
 	int b;
 
 	i = 0;
-	char *ar = str;
 	while (*ar != '\0')
 	{
 	i++;
