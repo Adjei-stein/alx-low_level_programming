@@ -4,7 +4,7 @@
  * @str:vThis is the received variable
  * Return: 0
  */
-int rev_string(char *str)
+void rev_string(char *str)
 {
 	int i;
 	int c;

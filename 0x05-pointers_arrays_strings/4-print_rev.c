@@ -4,7 +4,7 @@
  * @str: Char to be received
  * Return: 0;
  */
-int print_rev(char *str)
+void print_rev(char *str)
 {
 	int i;
 	int c;
