@@ -1,27 +1,26 @@
 #include "main.h"
 /**
- * rev_string - That's my function
- * @str:vThis is the received variable
+ * rev_string - Function starting point
+ * @str - the pointer
  * Return: 0
+ * 
  */
 void rev_string(char *str)
 {
 	char *ar = str;
 	int i;
 	int c;
-	int b;
 
 	i = 0;
-	while (*ar != '\0')
+	while (*(ar + i) != '\0')
 	{
 	i++;
-	ar++;
 	}
-	c = i;
-	/*printf("%d\n", c);*/
-	for (b = -1; b >= (-c) && b < 0; b--)
+	c = i - 1;
+	while (*(ar + c) != '\0' && c >= 0)
 	{
-	printf("%c", ar[b]);
+	printf("%c", *(ar + c));
+	c--;
 	}
 	printf("\n");
 }
