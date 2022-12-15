@@ -1,1 +1,1 @@
-Tasks on Dynamic libraries in C
+a directory to practice working with dynamic libraries
